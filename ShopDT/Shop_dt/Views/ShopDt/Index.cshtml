@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Mainlayout.cshtml";
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="heading"><h2>Điện Thoại Nổi Bật</h2></div>
+        <div class="products">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="product">
+                    <div class="image"><a href="product.html"><img src="~/Asset/images/xiaomi-note-10.jpg" /></a></div>
+                    <div class="buttons">
+                        <a class="btn cart" href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+                        <a class="btn wishlist" href="#"><span class="glyphicon glyphicon-heart"></span></a>
+                        <a class="btn compare" href="#"><span class="glyphicon glyphicon-transfer"></span></a>
+                    </div>
+                    <div class="caption">
+                        <div class="name"><h3><a href="product.html">Xiaomi Redmi Note 10 (6GB/128GB)</a></h3></div>
+                        <div class="price">5.190.000đ</div>
+                        <div class="rating"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="product">
+                    <div class="image"><a href="product.html"><img src="~/Asset/images/oppo-a15s.jpg" /></a></div>
+                    <div class="buttons">
+                        <a class="btn cart" href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+                        <a class="btn wishlist" href="#"><span class="glyphicon glyphicon-heart"></span></a>
+                        <a class="btn compare" href="#"><span class="glyphicon glyphicon-transfer"></span></a>
+                    </div>
+                    <div class="caption">
+                        <div class="name"><h3><a href="product.html">OPPO A15</a></h3></div>
+                        <div class="price">3.490.000đ</div>
+                        <div class="rating"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="product">
+                    <div class="image"><a href="@Url.Action("ChiTietsp",new { id = 1 })"><img src="~/Asset/images/iphone-12-pro.jpg" /></a></div>
+                    <div class="buttons">
+                        <a class="btn cart" href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+                        <a class="btn wishlist" href="#"><span class="glyphicon glyphicon-heart"></span></a>
+                        <a class="btn compare" href="#"><span class="glyphicon glyphicon-transfer"></span></a>
+                    </div>
+                    <div class="caption">
+                        <div class="name"><h3><a href="product.html">iPhone 12 Pro Max 512GB</a></h3></div>
+                        <div class="price">33.990.000đ<span>31.690.000đ</span></div>
+                        <div class="rating"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="product">
+                    <div class="image"><a href="product.html"><img src="~/Asset/images/iphone-xr.jpg" /></a></div>
+                    <div class="buttons">
+                        <a class="btn cart" href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+                        <a class="btn wishlist" href="#"><span class="glyphicon glyphicon-heart"></span></a>
+                        <a class="btn compare" href="#"><span class="glyphicon glyphicon-transfer"></span></a>
+                    </div>
+                    <div class="caption">
+                        <div class="name"><h3><a href="product.html">iPhone XR 128GB</a></h3></div>
+                        <div class="price">14.490.000đ</div>
+                        <div class="rating"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
